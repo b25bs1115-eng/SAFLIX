@@ -1,51 +1,36 @@
 {
-  "name": "react",
-  "description": "React is a JavaScript library for building user interfaces.",
-  "keywords": [
-    "react"
-  ],
-  "version": "19.2.5",
-  "homepage": "https://react.dev/",
-  "bugs": "https://github.com/facebook/react/issues",
-  "license": "MIT",
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.js",
-    "cjs/",
-    "compiler-runtime.js",
-    "jsx-runtime.js",
-    "jsx-runtime.react-server.js",
-    "jsx-dev-runtime.js",
-    "jsx-dev-runtime.react-server.js",
-    "react.react-server.js"
-  ],
-  "main": "index.js",
-  "exports": {
-    ".": {
-      "react-server": "./react.react-server.js",
-      "default": "./index.js"
-    },
-    "./package.json": "./package.json",
-    "./jsx-runtime": {
-      "react-server": "./jsx-runtime.react-server.js",
-      "default": "./jsx-runtime.js"
-    },
-    "./jsx-dev-runtime": {
-      "react-server": "./jsx-dev-runtime.react-server.js",
-      "default": "./jsx-dev-runtime.js"
-    },
-    "./compiler-runtime": {
-      "react-server": "./compiler-runtime.js",
-      "default": "./compiler-runtime.js"
-    }
+  "name": "saflix",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://b25bs1115-eng.github.io/SAFLIX",
+  "dependencies": {
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/react.git",
-    "directory": "packages/react"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
