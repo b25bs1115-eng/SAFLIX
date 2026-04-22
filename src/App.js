@@ -18,3 +18,4 @@ const SEED_TITLES = {
 // ... (Rest of your SAFLIX React Code goes here) ...
 // For brevity, ensure you paste the full content of saflix_app.jsx 
 // inside these triple quotes when using in Colab.
+export default App;
